@@ -31,7 +31,6 @@ POST /user_entry
   "fname": "John",
   "lname": "Cena",
   "email": "johncena@bennington.edu"
-
 }
 ```
 ### Send email to all users (2)
