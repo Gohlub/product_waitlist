@@ -1,0 +1,26 @@
+[package]
+name = "product_waitlist"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = {version = "0.5.0-rc.2", features = ["json"]}
+serde = "1.0.136"
+dotenv = "0.15.0"
+bson = "1.2"
+chrono = "0.4"
+lettre = { version = "0.10.4", default-features = false, features = ["smtp-transport", "tokio1-rustls-tls", "hostname", "builder"] }
+tokio = { version = "1.8.1", features = ["full"] }
+
+
+
+
+
+
+
+[dependencies.mongodb]
+version = "2.2.0"
+default-features = false
+features = ["sync"] 
